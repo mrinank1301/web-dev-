@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.container1{
+    background-image: url(pexels-annpoan-5798000.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+.links{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links>li{
+    margin-right: 60px;
+}
+
+.links>li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    &:hover{
+        color: aliceblue;
+        background-color: black;
+        padding: 7px;
+        border-radius: 6px;
+        transition: all 0.5s;
+    }
+}
+.navbar>h1{
+    font-weight: bold;
+    font-size: x-large;
+}
+.container2>div>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+font-size: 20px;
+}
+section{
+    position: absolute;
+    left: 55%;
+    top: 25%;
+}
+.container3>h1{
+    font-size:55px;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+.container4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.container4>p{
+    margin-right: 40px;
+    width: 250px;
+}
+.container5{
+    margin-top: 50px;
+}
+.container5>span>a{
+    color: black;
+    font-size: xx-large;
+}
